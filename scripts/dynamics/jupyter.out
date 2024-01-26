@@ -1,0 +1,157 @@
+[I 2024-01-25 14:08:07.115 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2024-01-25 14:08:07.246 ServerApp] Package jupyter_lsp took 0.1304s to import
+[W 2024-01-25 14:08:07.246 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-01-25 14:08:07.295 ServerApp] Package jupyter_server_terminals took 0.0483s to import
+[I 2024-01-25 14:08:07.296 ServerApp] Package notebook took 0.0000s to import
+[I 2024-01-25 14:08:07.302 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2024-01-25 14:08:07.302 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-01-25 14:08:07.306 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-01-25 14:08:07.317 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2024-01-25 14:08:07.322 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-01-25 14:08:07.322 LabApp] 'port_retries' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-01-25 14:08:07.329 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-01-25 14:08:07.339 ServerApp] notebook | extension was successfully linked.
+[I 2024-01-25 14:08:08.651 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-01-25 14:08:08.815 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-01-25 14:08:08.819 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-01-25 14:08:08.821 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-01-25 14:08:08.842 LabApp] JupyterLab extension loaded from /om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/jupyterlab
+[I 2024-01-25 14:08:08.842 LabApp] JupyterLab application directory is /net/vast-storage/scratch/vast/evlab/jackking/anaconda/envs/modular_transformers/share/jupyter/lab
+[I 2024-01-25 14:08:08.844 LabApp] Extension Manager is 'pypi'.
+[I 2024-01-25 14:08:08.849 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-01-25 14:08:08.855 ServerApp] notebook | extension was successfully loaded.
+[I 2024-01-25 14:08:08.856 ServerApp] Serving notebooks from local directory: /net/vast-storage/scratch/vast/evlab/jackking/transformer_xray/scripts/dynamics
+[I 2024-01-25 14:08:08.856 ServerApp] Jupyter Server 2.10.1 is running at:
+[I 2024-01-25 14:08:08.856 ServerApp] http://node033:4444/lab?token=84235850b836b75a9dbf28b52b1cd4602b02b6a78cfe58d9
+[I 2024-01-25 14:08:08.856 ServerApp]     http://127.0.0.1:4444/lab?token=84235850b836b75a9dbf28b52b1cd4602b02b6a78cfe58d9
+[I 2024-01-25 14:08:08.856 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-01-25 14:08:08.872 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/jackking/.local/share/jupyter/runtime/jpserver-30240-open.html
+    Or copy and paste one of these URLs:
+        http://node033:4444/lab?token=84235850b836b75a9dbf28b52b1cd4602b02b6a78cfe58d9
+        http://127.0.0.1:4444/lab?token=84235850b836b75a9dbf28b52b1cd4602b02b6a78cfe58d9
+[I 2024-01-25 14:08:08.932 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-01-25 14:34:29.662 ServerApp] 404 GET /hub/api (@172.16.24.234) 102.79ms referer=None
+[I 2024-01-25 14:34:29.804 JupyterNotebookApp] 302 GET /tree? (@172.16.24.234) 1.15ms
+[W 2024-01-25 14:34:32.415 ServerApp] 404 GET /hub/api (@172.16.24.234) 2.46ms referer=None
+[I 2024-01-25 14:34:32.508 JupyterNotebookApp] 302 GET /tree? (@172.16.24.234) 1.07ms
+[I 2024-01-25 14:34:37.625 ServerApp] Kernel started: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[I 2024-01-25 14:34:40.032 ServerApp] Connecting to kernel 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e.
+[I 2024-01-25 15:07:25.155 ServerApp] Kernel interrupted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[W 2024-01-25 15:18:14.196 ServerApp] 404 GET /hub/api (@172.16.24.234) 5.08ms referer=None
+[I 2024-01-25 15:18:14.325 JupyterNotebookApp] 302 GET /tree? (@172.16.24.234) 1.29ms
+[I 2024-01-25 15:18:15.762 ServerApp] Connecting to kernel 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e.
+[I 2024-01-25 15:21:26.125 ServerApp] Kernel restarted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[I 2024-01-25 15:21:26.173 ServerApp] Connecting to kernel 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e.
+Traceback (most recent call last):
+  File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/ipykernel_launcher.py", line 15, in <module>
+    from ipykernel import kernelapp as app
+  File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/ipykernel/kernelapp.py", line 19, in <module>
+    from IPython.core.application import (  # type:ignore[attr-defined]
+  File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/IPython/__init__.py", line 53, in <module>
+    from .terminal.embed import embed
+  File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/IPython/terminal/embed.py", line 16, in <module>
+    from IPython.terminal.interactiveshell import TerminalInteractiveShell
+  File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/IPython/terminal/interactiveshell.py", line 48, in <module>
+    from .debugger import TerminalPdb, Pdb
+  File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/IPython/terminal/debugger.py", line 6, in <module>
+    from IPython.core.completer import IPCompleter
+  File "/om2/user/jackking/anaconda/envs/modular_transformers/lib/python3.8/site-packages/IPython/core/completer.py", line 219, in <module>
+    from IPython.core.guarded_eval import guarded_eval, EvaluationContext
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 971, in get_code
+  File "<frozen importlib._bootstrap_external>", line 640, in _compile_bytecode
+KeyboardInterrupt
+[I 2024-01-25 15:21:27.532 ServerApp] Kernel restarted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[W 2024-01-25 15:21:27.545 ServerApp] Replacing stale connection: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e:d1603e84-b0e9-4a4a-b6d7-cd3560f0d24f
+[I 2024-01-25 15:21:27.547 ServerApp] Connecting to kernel 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e.
+[W 2024-01-25 15:21:29.483 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2b8ba79322e0>
+[W 2024-01-25 15:21:29.483 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2b8ba7938550>
+[W 2024-01-25 15:21:29.483 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2b8ba7938550>
+[W 2024-01-25 15:21:29.484 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2b8ba7938550>
+[W 2024-01-25 15:21:29.484 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x2b8ba7938550>
+[I 2024-01-25 15:21:29.917 ServerApp] Kernel restarted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[I 2024-01-25 15:21:29.935 ServerApp] Connecting to kernel 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e.
+[I 2024-01-25 15:27:27.410 ServerApp] Kernel restarted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[I 2024-01-25 15:27:27.422 ServerApp] Connecting to kernel 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e.
+[I 2024-01-25 15:33:19.516 ServerApp] Kernel restarted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[I 2024-01-25 15:33:19.526 ServerApp] Connecting to kernel 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e.
+[I 2024-01-25 15:35:48.746 ServerApp] Kernel restarted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[I 2024-01-25 15:35:48.769 ServerApp] Connecting to kernel 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e.
+[I 2024-01-25 15:37:23.365 ServerApp] Kernel restarted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[I 2024-01-25 15:37:23.369 ServerApp] Starting buffering for 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e:d1603e84-b0e9-4a4a-b6d7-cd3560f0d24f
+[I 2024-01-25 15:37:23.378 ServerApp] Connecting to kernel 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e.
+[I 2024-01-25 15:37:23.378 ServerApp] Restoring connection for 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e:d1603e84-b0e9-4a4a-b6d7-cd3560f0d24f
+[I 2024-01-25 15:40:16.676 ServerApp] Kernel interrupted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[I 2024-01-25 15:42:29.395 ServerApp] Kernel interrupted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[I 2024-01-25 15:42:36.075 ServerApp] Kernel restarted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[I 2024-01-25 15:42:36.079 ServerApp] Starting buffering for 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e:d1603e84-b0e9-4a4a-b6d7-cd3560f0d24f
+[I 2024-01-25 15:42:36.092 ServerApp] Connecting to kernel 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e.
+[I 2024-01-25 15:42:36.092 ServerApp] Restoring connection for 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e:d1603e84-b0e9-4a4a-b6d7-cd3560f0d24f
+[I 2024-01-25 15:42:47.023 ServerApp] Kernel interrupted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[I 2024-01-25 16:27:14.137 ServerApp] Kernel restarted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[I 2024-01-25 16:27:14.143 ServerApp] Starting buffering for 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e:d1603e84-b0e9-4a4a-b6d7-cd3560f0d24f
+[I 2024-01-25 16:27:14.155 ServerApp] Connecting to kernel 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e.
+[I 2024-01-25 16:27:14.155 ServerApp] Restoring connection for 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e:d1603e84-b0e9-4a4a-b6d7-cd3560f0d24f
+[I 2024-01-25 16:34:00.196 ServerApp] Kernel restarted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[I 2024-01-25 16:34:00.201 ServerApp] Starting buffering for 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e:d1603e84-b0e9-4a4a-b6d7-cd3560f0d24f
+[I 2024-01-25 16:34:00.213 ServerApp] Connecting to kernel 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e.
+[I 2024-01-25 16:34:00.214 ServerApp] Restoring connection for 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e:d1603e84-b0e9-4a4a-b6d7-cd3560f0d24f
+[I 2024-01-25 16:36:19.832 ServerApp] Kernel restarted: 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e
+[I 2024-01-25 16:36:19.837 ServerApp] Starting buffering for 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e:d1603e84-b0e9-4a4a-b6d7-cd3560f0d24f
+[I 2024-01-25 16:36:19.847 ServerApp] Connecting to kernel 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e.
+[I 2024-01-25 16:36:19.847 ServerApp] Restoring connection for 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e:d1603e84-b0e9-4a4a-b6d7-cd3560f0d24f
+[I 2024-01-25 16:50:05.740 ServerApp] Starting buffering for 3d32d1a0-6964-4bdf-9662-454bc4fd5a5e:d1603e84-b0e9-4a4a-b6d7-cd3560f0d24f
+[W 2024-01-25 19:21:16.753 ServerApp] 404 GET /hub/api (@172.16.24.234) 7.17ms referer=None
+[I 2024-01-25 19:21:16.824 JupyterNotebookApp] 302 GET /tree? (@172.16.24.234) 1.26ms
+[W 2024-01-25 19:45:45.305 ServerApp] 404 GET /hub/api (@172.16.24.234) 11.22ms referer=None
+[I 2024-01-25 19:45:46.182 JupyterNotebookApp] 302 GET /tree? (@172.16.24.234) 1.01ms
+[I 2024-01-25 19:51:39.516 ServerApp] Kernel started: dfd3003d-e783-416b-a76d-4582b36282d5
+[I 2024-01-25 19:51:42.029 ServerApp] Connecting to kernel dfd3003d-e783-416b-a76d-4582b36282d5.
+[W 2024-01-25 23:17:31.296 ServerApp] 404 GET /hub/api (@172.16.24.234) 4.84ms referer=None
+[I 2024-01-25 23:17:31.369 JupyterNotebookApp] 302 GET /tree? (@172.16.24.234) 1.35ms
+[W 2024-01-25 23:17:52.350 ServerApp] 404 GET /hub/api (@172.16.24.234) 2.19ms referer=None
+[I 2024-01-25 23:17:52.419 JupyterNotebookApp] 302 GET /tree? (@172.16.24.234) 1.11ms
+[I 2024-01-25 23:22:28.009 ServerApp] Starting buffering for dfd3003d-e783-416b-a76d-4582b36282d5:75b5337e-193c-4648-ab7e-3860072dd7ab
+[W 2024-01-26 08:11:21.017 ServerApp] 404 GET /hub/api (@172.16.24.234) 8.10ms referer=None
+[I 2024-01-26 08:11:21.095 JupyterNotebookApp] 302 GET /tree? (@172.16.24.234) 1.22ms
+[W 2024-01-26 08:11:25.571 ServerApp] 404 GET /hub/api (@172.16.24.234) 2.20ms referer=None
+[I 2024-01-26 08:11:25.721 JupyterNotebookApp] 302 GET /tree? (@172.16.24.234) 1.01ms
+[W 2024-01-26 09:43:51.364 ServerApp] 404 GET /hub/api (@172.16.24.234) 6.14ms referer=None
+[I 2024-01-26 09:43:51.437 JupyterNotebookApp] 302 GET /tree? (@172.16.24.234) 1.05ms
+[W 2024-01-26 09:43:53.975 ServerApp] 404 GET /hub/api (@172.16.24.234) 2.23ms referer=None
+[I 2024-01-26 09:43:54.078 JupyterNotebookApp] 302 GET /tree? (@172.16.24.234) 1.04ms
+[I 2024-01-26 09:48:58.216 ServerApp] Kernel started: aa2f5fc8-d769-489b-b641-782b3fe07016
+[I 2024-01-26 09:49:00.711 ServerApp] Connecting to kernel aa2f5fc8-d769-489b-b641-782b3fe07016.
+[I 2024-01-26 10:00:32.401 ServerApp] Kernel interrupted: aa2f5fc8-d769-489b-b641-782b3fe07016
+[I 2024-01-26 10:04:22.411 ServerApp] Kernel restarted: aa2f5fc8-d769-489b-b641-782b3fe07016
+[I 2024-01-26 10:04:22.417 ServerApp] Starting buffering for aa2f5fc8-d769-489b-b641-782b3fe07016:317069aa-07f6-4706-ba2d-da711d0ed179
+[I 2024-01-26 10:04:22.428 ServerApp] Connecting to kernel aa2f5fc8-d769-489b-b641-782b3fe07016.
+[I 2024-01-26 10:04:22.428 ServerApp] Restoring connection for aa2f5fc8-d769-489b-b641-782b3fe07016:317069aa-07f6-4706-ba2d-da711d0ed179
+[W 2024-01-26 10:58:48.603 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[W 2024-01-26 10:59:16.448 ServerApp] iopub messages resumed
+[I 2024-01-26 11:00:39.412 ServerApp] Kernel interrupted: aa2f5fc8-d769-489b-b641-782b3fe07016
+[W 2024-01-26 14:01:37.676 ServerApp] 404 GET /hub/api (@172.16.24.234) 4.95ms referer=None
+[I 2024-01-26 14:01:37.755 JupyterNotebookApp] 302 GET /tree? (@172.16.24.234) 1.30ms
+[W 2024-01-26 14:01:44.734 ServerApp] 404 GET /hub/api (@172.16.24.234) 2.37ms referer=None
+[I 2024-01-26 14:01:44.865 JupyterNotebookApp] 302 GET /tree? (@172.16.24.234) 1.03ms
+[I 2024-01-26 14:01:45.679 ServerApp] Connecting to kernel aa2f5fc8-d769-489b-b641-782b3fe07016.
+slurmstepd: error: *** JOB 34787596 ON node033 CANCELLED AT 2024-01-26T14:08:04 DUE TO TIME LIMIT ***
